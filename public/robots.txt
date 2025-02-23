@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://traffictappuzzle.com
+
+# Sitemaps
+Sitemap: https://traffictappuzzle.com/sitemap.xml
