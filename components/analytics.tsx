@@ -3,13 +3,13 @@ import Script from 'next/script'
 const Analytics = () => (
     <>
         {/* google analytics */}
-        <Script
+        {/* <Script
             async
             src="https://www.googletagmanager.com/gtag/js?id=G-N2QDW6GZYP"
-        />
+        /> */}
 
 
-        <Script
+        {/* <Script
             id="google-analytics"
             dangerouslySetInnerHTML={{
                 __html: `
@@ -33,10 +33,10 @@ const Analytics = () => (
                 })(window, document, "clarity", "script", "q1k8ufd598");
         `
             }}
-        />
+        /> */}
         <Script
             defer
-            data-domain="blockbreaker.org"
+            data-domain="traffictappuzzle.com"
             src="https://actone.app/js/script.js"
         />
     </>
